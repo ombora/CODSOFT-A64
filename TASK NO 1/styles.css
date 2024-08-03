@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f75052;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9966, #ff5e62);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9966, #ff5e62); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.sociallinks a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness:  2px ;
+}
+
+.request-consult {
+    background: #df6969;
+    color: #860305;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #280557;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero.jpeg') no-repeat center center;
+    height: 280px;
+    color: #000000;
+    text-align: center;
+    padding: 50px 15px;
+    margin: 10px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero .btn {
+    background: #fff;
+    color: #ff5e62;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #59d177;
+}
+
+.features .feature {
+    max-width: 300px;
+    background-color: rgb(245, 226, 226);
+    text-align: center;
+}
+
+.about-us {
+    text-align: center;
+    background-color: #ff9966;
+    padding: 50px 20px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services .service {
+    display: inline-block;
+    margin: 20px;
+}
+
+.services .service img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+div.scroll-container {
+    background-color: #3756dd;
+    overflow: auto;
+    white-space: nowrap;
+    stroke: #088dda;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+footer {
+    background: #088dda;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
